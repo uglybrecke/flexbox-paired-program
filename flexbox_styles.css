@@ -4,9 +4,18 @@ Note: you should only need to use flexbox properties and margin/padding to creat
 */
 .card-container {
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-    background-color: red;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
 }
 
 
