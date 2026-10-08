@@ -39,13 +39,12 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 .footer-section {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
     flex: 1;
 }
 
