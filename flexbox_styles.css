@@ -4,6 +4,7 @@ Note: you should only need to use flexbox properties and margin/padding to creat
 */
 .card-container {
     display: flex;
+    gap: 1rem;
 }
 
 header {
