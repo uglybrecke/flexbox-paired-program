@@ -4,7 +4,6 @@ Note: you should only need to use flexbox properties and margin/padding to creat
 */
 .card-container {
     display: flex;
-
 }
 
 header {
@@ -18,6 +17,37 @@ nav {
     gap: 1rem;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features {
+    display: flex;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex: 1;
+}
 
 
 /* 
