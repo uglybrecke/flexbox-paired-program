@@ -2,6 +2,12 @@
 TODO: Add styles to match the layout in the image.
 Note: you should only need to use flexbox properties and margin/padding to create the layout.
 */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: red;
+}
 
 
 
